@@ -3,9 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Proyecto Pagina Web Ford</title>
 </head>
 <body>
-    
+    <!--Header-->
+    <header class="header">
+        <div class="header__container">
+
+            <!--Btn Menu-->
+            <button id="open-menu" class="open-menu">
+                <i class="bi bi-list menu-icon"></i>
+            </button>
+
+            <!--Sidebar Menu-->
+            <nav id="sidebar" class="sidebar">
+                <button id="close-menu" class="close-menu">
+                    <i class="bi bi-x-lg menu-icon close-icon"></i>
+                </button>
+
+                <div class="sidebar__container">
+                    <div class="sidebar__links">
+                        <a href="#" class="sidebar-links">
+                            <i class="bi bi-house-door-fill icon"></i>
+                            Inicio
+                        </a>
+
+
+                        <a href="#" class="sidebar-links">
+                            <i class="bi bi-fire icon"></i>
+                            Lo más nuevo
+                        </a>
+
+                        <a href="#" class="sidebar-links">
+                            <i class="bi bi-buildings-fill icon"></i>
+                            Sucursales
+                        </a>
+
+                        <a href="#" class="sidebar-links"><i class="bi bi-question-square-fill icon"></i>
+                            FAQ
+                        </a>
+
+                        <a href="#" class="sidebar-links">
+                            <i class="bi bi-envelope-fill icon"></i>
+                            Contactanos
+                        </a>
+
+                        <a href="#" class="sidebar-links">
+                            <i class="bi bi-info-square-fill icon"></i>
+                            Ayuda
+                        </a>
+                    </div>
+
+                    <!--Btn Darkmode-->
+                    <div class="input__container">
+                        <input type="checkbox" name="checkbox" id="btnDark" class="input">
+                        <label for="btnDark" class="label"></label>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Header Links-->
+            <div class="header__links">
+                <a href="#" class="header-links">Lo nuevo</a>
+                <a href="#" class="header-links">Conocenos</a>
+                <a href="#" class="header-links">Ayuda</a>
+                <a href="#" class="header-links">Contactanos</a>
+            </div>
+
+            <!--Logo-->
+            <figure class="header__figure-container">
+                <img src="/img/Ford-Logo.png" alt="logo" class="header-img">
+            </figure>
+        </div>
+    </header>
+
+    <!--Contenido Principal-->
+    <main id="main" class="main">
+        <!--Banner-->
+        <section class="section section-1">
+            <div class="section-1__container">
+                <figure class="figure__container">
+                    <img src="/img/HOR_XB1_Ford_GT_05-removebg-preview.png" alt="banner" class="banner">
+                </figure>
+
+                <div class="section-1__information">
+                    <h1 class="title">Bienvnido a Ford</h1>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, tempora, placeat in mollitia ex cupiditate delectus illo nostrum exercitationem aspernatur quaerat earum eius facilis culpa!</p>
+
+                    <a href="#" class="cta cta-banner">Ver Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Lo nuevo-->
+        <section class="section section-2">
+            <div class="section-2__container">
+                <figure class="figure__container-info">
+                    <img src="/img/ford info.jpg" alt="img-1" class="info-img">
+                </figure>
+
+                <div class="section-2__information">
+                    <h2 class="subtitle">Lo más nuevo para cualquier terreno</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vel dolores voluptatum veritatis blanditiis, reprehenderit eos quidem maxime repellendus qui cupiditate aperiam laudantium enim ducimus magni tempore inventore, quis eius sint numquam et alias voluptate exercitationem sed. Error sint quo assumenda accusamus. Placeat, iusto necessitatibus?</p>
+
+                    <a href="#" class="cta cta-info">Ver Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Engine-->
+        <section class="section section-3">
+            <div class="section-3__container">
+                <figure class="figure__container-engine">
+                    <img src="/img/engine.jpg" alt="img-2" class="engine-img">
+                </figure>
+
+                <div class="section-3__engine">
+                    <h2 class="subtitle">¡Conoce nuestro nuevo motor!</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat vitae architecto necessitatibus doloribus nostrum dolorum et tenetur, tempore iste consectetur ut inventore quam corrupti magni facere eos assumenda optio molestias molestiae itaque vel repellat quaerat? Consectetur molestiae natus sit mollitia.</p>
+
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. At error ab voluptas, aliquid corrupti ratione ipsum sapiente nostrum numquam rem eum officiis ex, quam nemo optio natus explicabo. In enim dicta placeat quae ullam repudiandae maxime quia pariatur temporibus dolores neque id esse perferendis earum nihil, hic saepe laudantium vitae!</p>
+
+                    <a href="#" class="cta cta engine">Ver Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Plan de seguros-->
+        <section class="section section-4">
+            <div class="section-4__container">
+                <h2 class="card-title">Plan de Seguros</h2>
+
+                <div class="cards__container">
+                    <div class="card">
+                        <h3 class="plan-title">Seguro Básico</h3>
+
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi quo ducimus pariatur quasi voluptatem dignissimos soluta possimus reiciendis dolores eaque incidunt quis tempora sit veritatis recusandae consequatur, fugit ratione!</p>
+
+                        <h3 class="price">$199</h3>
+
+                        <a href="#" class="cta cta-card">Ver Más</a>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="plan-title">Seguro Estándar</h3>
+
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi quo ducimus pariatur quasi voluptatem dignissimos soluta possimus reiciendis dolores eaque incidunt quis tempora sit veritatis recusandae consequatur, fugit ratione!</p>
+
+                        <h3 class="price">2199</h3>
+
+                        <a href="#" class="cta cta-card">Ver Más</a>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="plan-title">Seguro Premium</h3>
+
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi quo ducimus pariatur quasi voluptatem dignissimos soluta possimus reiciendis dolores eaque incidunt quis tempora sit veritatis recusandae consequatur, fugit ratione!</p>
+
+                        <h3 class="price">$499</h3>
+
+                        <a href="#" class="cta cta-card">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Location-->
+        <section class="section section-5">
+            <div class="section-5__container">
+                <h2 class="subtitle">Encuentrá tu sucrusal más cercana</h2>
+
+                <div class="section-5__map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.062926116992!2d-99.13598862405692!3d19.495928338653957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ba68b00473%3A0x88dca7320f388db3!2sBiblioteca%20Nacional%20de%20Ciencia%20y%20Tecnolog%C3%ADa%20%22V%C3%ADctor%20Bravo%20Ahuja%22%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1724368359746!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <figure class="footer__figure-container">
+            <img src="/img/Ford-Logo.png" alt="logo" class="footer-logo">
+        </figure>
+
+        <div class="footer__container">
+            <div class="footer__info">
+                <h3 class="footer-info">Información</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eius architecto, nisi, dolores, dolore nulla iure provident distinctio facilis fugiat suscipit exercitationem minima aliquid recusandae ipsum sapiente omnis natus molestias!</p>
+            </div>
+
+            <div class="footer__contact">
+                <h4 class="footer-info">Contactanos aquí:</h4>
+
+                <div class="footer__container-container">
+                    <i class="bi bi-telephone-fill f-icon"></i>
+
+                    <p class="footer-tel">01 800 9900 8080</p>
+                </div>
+            </div>
+
+            <div class="footer__socials">
+                <a href="#" class="footer-links">
+                    <i class="bi bi-facebook icon-link"></i>
+                    Facebook
+                </a>
+
+                <a href="#" class="footer-links">
+                    <i class="bi bi-instagram icon-link"></i>
+                    Instagram
+                </a>
+
+                <a href="#" class="footer-links">
+                    <i class="bi bi-instagram icon-link"></i>
+                    Twitter(X)
+                </a>
+                
+                <a href="#" class="footer-links">
+                    <i class="bi bi-tiktok icon-link"></i>
+                    Tiktok
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Btn Inicio-->
+    <a href="#main" class="btnHome">
+        <i class="bi bi-arrow-up-short h-icon"></i>
+    </a>
 </body>
 </html>
