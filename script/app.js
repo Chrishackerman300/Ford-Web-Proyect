@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function cargarFunciones(){
         openMenu.addEventListener('click', abrirMenu)
         closeMenu.addEventListener('click', cerrarMenu)
+        btnDark.addEventListener('click', darkmode)
     }
 
     function abrirMenu(){
@@ -24,6 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if(sidebar.classList.contains('show')){
             sidebar.classList.remove('show')
             console.log('Cerrando el menu')
+        }
+    }
+
+    function darkmode(){
+        if(body.classList.contains('darkmode')){
+            body.classList.remove('darkmode')
+        }
+        else{
+            body.classList.add('darkmode')
         }
     }
 })
