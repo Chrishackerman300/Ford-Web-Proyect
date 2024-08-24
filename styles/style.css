@@ -470,3 +470,13 @@
         color: var(--bg-btn);
     }
 }
+
+@media screen and (max-width: 450px){
+    .sidebar{
+        width: 100%;
+    }
+
+    .title,.subtitle,.card-title{
+        font-size: 2rem;
+    }
+}
